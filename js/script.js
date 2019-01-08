@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $('.menu').click(function(){
+        $('#head-ul').toggleClass('active');
+    });
+    $(".agent.pulse").click(function(){
+        $("#hint-box").slideToggle(500);
+    });
+    $(".briefcase").click(function(){
+        $("#hint-box").slideToggle(500);
+    });
+});
