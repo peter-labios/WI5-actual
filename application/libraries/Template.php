@@ -14,7 +14,6 @@ class Template{
 				$CI->load->view($body);
 		}
 		else{
-			
 			if($body === 'Authentication/Registration'){
 				$CI->load->view('Authentication/Registration');
 			}

@@ -1,5 +1,6 @@
 RewriteEngine On
 RewriteBase /WI5
+RewriteBase /WI5-actual
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L]
